@@ -1,0 +1,80 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3862531867890753709
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3862531867890753711}
+  - component: {fileID: 3862531867890753708}
+  m_Layer: 0
+  m_Name: ClothGauntletRecipe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3862531867890753711
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862531867890753709}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3862531867890753708
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3862531867890753709}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff5d17ab992b77c409c938bbcb12e063, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  craftingMaterials:
+  - ItemId: 6
+    Name: Fiber
+    Prefab: {fileID: 0}
+    ItemImage: {fileID: 0}
+    ItemType: 0
+    Health: 0
+    Saturation: 0
+    Hydration: 0
+    Armor: 0
+    type: 0
+    gatherModifier: 0
+  - ItemId: 6
+    Name: Fiber
+    Prefab: {fileID: 0}
+    ItemImage: {fileID: 0}
+    ItemType: 0
+    Health: 0
+    Saturation: 0
+    Hydration: 0
+    Armor: 0
+    type: 0
+    gatherModifier: 0
+  craftedItem:
+    ItemId: 11
+    Name: ClothGauntlets
+    Prefab: {fileID: 6158903072174188998, guid: 95fc009249aafd242b776454bffbee44, type: 3}
+    ItemImage: {fileID: 21300000, guid: c8077e3b4b13c87409b0e7183829a4c2, type: 3}
+    ItemType: 0
+    Health: -10
+    Saturation: 10
+    Hydration: 0
+    Armor: 0
+    type: 0
+    gatherModifier: 0
